@@ -1,9 +1,11 @@
 {
   "name": "afterglow-monokai-dark",
   "displayName": "Afterglow Monokai Dark",
-  "description": "Inspired by Afterglow Monokai, redisigned dark theme with dimmed color palette.",
-  "version": "0.0.1",
+  "description": "Inspired by Afterglow Monokai, redesigned dark theme with dimmed color palette.",
+  "version": "0.0.2",
+  "publisher": "VladislavArtyukhov",
   "icon": "assets/icon.png",
+  "license": "UNLICENSED",
   "galleryBanner.color": {
     "color": "#222222",
     "theme": "dark"

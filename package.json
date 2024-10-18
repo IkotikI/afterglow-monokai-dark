@@ -1,0 +1,26 @@
+{
+  "name": "afterglow-monokai-dark",
+  "displayName": "Afterglow Monokai Dark",
+  "description": "Inspired by Afterglow Monokai, redisigned dark theme with dimmed color palette.",
+  "version": "0.0.1",
+  "icon": "assets/icon.png",
+  "galleryBanner.color": {
+    "color": "#222222",
+    "theme": "dark"
+  },
+  "engines": {
+    "vscode": "^1.94.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Afterglow Monokai Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/afterglow-monokai-dark-color-theme.json"
+      }
+    ]
+  }
+}

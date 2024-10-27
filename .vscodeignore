@@ -3,5 +3,7 @@
 .gitignore
 vsc-extension-quickstart.md
 
+themes/theme-from-settings.jsonc
+
 assets/**
 !assets/icon.png

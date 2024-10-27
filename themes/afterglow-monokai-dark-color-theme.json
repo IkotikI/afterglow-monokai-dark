@@ -81,13 +81,16 @@
 			"settings": {
 				"fontStyle": "",
 				"foreground": "#b05279"
+				// "foreground": "#249d5f"
 			}
 		},
 		{
 			"name": "Storage type",
 			"scope": "storage.type",
 			"settings": {
-				"foreground": "#6c99bb"
+				"foreground": "#249d5f"
+				// "foreground": "#b05279"
+				// "foreground": "#6c99bb"
 			}
 		},
 		{
@@ -101,7 +104,8 @@
 			"name": "Inherited class",
 			"scope": "entity.other.inherited-class",
 			"settings": {
-				"foreground": "#b4c973"
+				"foreground": "#7cc39e"
+				// "foreground": "#b4c973"
 			}
 		},
 		{
@@ -158,7 +162,8 @@
 				"support.class"
 			],
 			"settings": {
-				"foreground": "#6c99bb"
+				"foreground": "#249D5F"
+				// "foreground": "#7CC39E"
 			}
 		},
 		{
@@ -359,24 +364,26 @@
 			// "Class" will be as other Reserver Words
 			"name": "'Class' word",
 			"scope": [
-				"storage.type.class"
+				"storage.type.class",
+				"storage.type.interface"
 			],
 			"settings": {
-				// "foreground": "#b33570",
 				"foreground": "#B05279"
-			}
-		},
-		{
-			// Concrete Class
-			"name": "Class name",
-			"scope": [
-				"entity.name.type.class"
-			],
-			"settings": {
+				// "foreground": "#B05279"
 				// "foreground": "#b33570",
-				"foreground": "#B4C973"
 			}
 		},
+		// {
+		// 	// Concrete Class
+		// 	"name": "Class name",
+		// 	"scope": [
+		// 		"entity.name.type.class"
+		// 	],
+		// 	"settings": {
+		// 		// "foreground": "#b33570",
+		// 		"foreground": "#B4C973"
+		// 	}
+		// },
 		{
 			// Concrete Type, Module
 			"name": "Type, Module name",
@@ -395,7 +402,7 @@
 			"scope": [
 				"support.class.component",
 				"support.function.construct",
-				"storage.type",
+				// "storage.type",
 				"entity.name.function.support.builtin",
 				"support.type.property-name.table.toml"
 			],
@@ -416,15 +423,6 @@
 				"foreground": "#98C379"
 			}
 		},
-		// {
-		//     "scope": [
-		//         "entity.name.function.support",
-		//     ],
-		//     "settings": {
-		//         // "foreground": "#b33570",
-		//         "foreground": "#7cc39e",
-		//     }
-		// },
 		{
 			// Pretty color scheme for configs YAML, TOML
 			"name": "Config property",
@@ -442,35 +440,15 @@
 				// "foreground": "#ed4632",
 			}
 		},
-		// {
-		// 	"scope": [
-		// 		"keyword"
-		// 	],
-		// 	"settings": {
-		// 		//    "foreground": "#61AFEF",
-		// 		// "foreground": "#8a401d",
-		// 		// "foreground": "#920202",
-		// 		// "foreground": "#ed4632",
-		// 		// "foreground": "#ed4532cc",
-		// 	}
-		// },
-		// {
-		// 	"scope": [
-		// 		"string"
-		// 	],
-		// 	"settings": {
-		// 		"foreground": "#DABD80"
-		// 		// "foreground": "#E5C07B"
-		// 	}
-		// },
-		// {
-		// 	"scope": [
-		// 		"entity.name.import"
-		// 	],
-		// 	"settings": {
-		// 		// "foreground": "#DABD80"
-		// 	}
-		// }
+		{
+			"name": "Build-in Class, Type",
+			"scope": [
+				"support.type.primitive"
+			],
+			"settings": {
+				"foreground": "#249D5F",
+			}
+		}
 	],
 	"colors": {
 		"editor.background": "#222222",
@@ -478,8 +456,6 @@
 		"editor.foreground": "#d6d6d6",
 		"editorWhitespace.foreground": "#404040",
 		"editor.lineHighlightBackground": "#333435",
-		"editor.selectionBackground": "#5A647E",
-		// "editor.background": "#222222",
 		"activityBar.background": "#222222",
 		"sideBar.background": "#222222",
 		"titleBar.activeBackground": "#222222",

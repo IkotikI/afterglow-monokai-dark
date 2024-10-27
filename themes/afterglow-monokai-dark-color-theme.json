@@ -301,13 +301,14 @@
 		},
 		// Additions
 		{
-			// Custom tag highlight. Nice for JS frameworks.
+			// Custom Component or HTML tag highlight. Nice for JS frameworks.
 			"name": "Custom tag",
 			"scope": [
-				"meta.tag.other.unrecognized.html.derivative entity.name.tag.html"
+				"meta.tag.other.unrecognized.html.derivative entity.name.tag.html",
+				"support.class.component",
 			],
 			"settings": {
-				"foreground": "#4EC9B0"
+				"foreground": "#7CC39E"
 			}
 		},
 		{
@@ -400,7 +401,7 @@
 			// Build-in, basic language functions
 			"name": "Build-in functions",
 			"scope": [
-				"support.class.component",
+				// "support.class.component",
 				"support.function.construct",
 				// "storage.type",
 				"entity.name.function.support.builtin",
@@ -451,6 +452,8 @@
 		}
 	],
 	"colors": {
+		"statusBar.background": "#222",
+		"statusBarItem.remoteBackground": "#222",
 		"editor.background": "#222222",
 		"editorCursor.foreground": "#FFFFFF",
 		"editor.foreground": "#d6d6d6",

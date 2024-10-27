@@ -6,12 +6,12 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 Color scheme gets from [ArtyClick Colors](https://colors.artyclick.com/color-name-finder/).
 
-## [0.0.3] - 27.10.2024
+## [0.0.4] - 27.10.2024
 
 ### Changed 
 
 - Change colors of **Status (Bottom) Bar** to $\colorbox{#ddd}{\color{#222}{Raisin \space Black }} \sim$ (#222) in \
-"statusBar.background": "#222", "statusBarItem.remoteBackground": "#222" 
+`"statusBar.background": "#222", "statusBarItem.remoteBackground": "#222" `
 - Fixed colors for **Components in JS Frameworks** (Svelte, React) \
   Example: `<Button \>` tag name shall be $\color{#7CC39E}{Summer \space Green \sim}$ (#7CC39E)
 

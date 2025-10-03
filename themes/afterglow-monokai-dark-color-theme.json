@@ -39,9 +39,7 @@
 		},
 		{
 			"name": "Built-in constant",
-			"scope": [
-				"constant.language",
-			],
+			"scope": "constant.language",
 			"settings": {
 				"foreground": "#9e86c8"
 			}
@@ -50,7 +48,7 @@
 			"name": "User-defined constant",
 			"scope": [
 				"constant.character",
-				"constant.other",
+				"constant.other"
 			],
 			"settings": {
 				"foreground": "#9e86c8"
@@ -110,14 +108,14 @@
 				// "foreground": "#b4c973"
 			}
 		},
-		// {
-		// 	"name": "Function name",
-		// 	"scope": "entity.name.function",
-		// 	"settings": {
-		// 		"fontStyle": "",
-		// 		"foreground": "#b4c973"
-		// 	}
-		// },
+		{
+			"name": "Function name",
+			"scope": "entity.name.function",
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#b4c973"
+			}
+		},
 		{
 			"name": "Function argument",
 			"scope": "variable.parameter",
@@ -349,6 +347,15 @@
 			}
 		},
 		{
+			"name": "Support build-in",
+			"scope": [
+				"support.type.builtin"
+			],
+			"settings": {
+				"foreground": "#9E86C8"
+			}
+		},
+		{
 			// "This", "Super" as reference to object in class functions
 			"name": "This, Super",
 			"scope": [
@@ -364,11 +371,13 @@
 			}
 		},
 		{
-			// "Class" will be as other Reserver Words
-			"name": "'Class' word",
+			// Class, Interface, Enum, Type will be as other Reserver Words
+			"name": "Type words",
 			"scope": [
 				"storage.type.class",
-				"storage.type.interface"
+				"storage.type.interface",
+				"storage.type.enum",
+				"storage.type.type"
 			],
 			"settings": {
 				"foreground": "#B05279"

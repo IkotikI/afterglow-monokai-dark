@@ -4,7 +4,27 @@ All notable changes to the "afterglow-monokai-dark" extension will be documented
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
-Color scheme gets from [ArtyClick Colors](https://colors.artyclick.com/color-name-finder/).
+Color naming gets from [ArtyClick Colors](https://colors.artyclick.com/color-name-finder/).
+
+
+## TODO
+- PHP nowdoc support
+
+## Unreleased
+
+## [0.0.5] - 03.10.2025
+
+### Added
+- Added PHP 8 meta attributes support. For meta name and variables used $\color{#AAAAAA}{Grey \space Chateau \sim}$ (#AAAAAA) and *Italic* font style. Internal variable types keep it's type highlight. Keep it distinguishable, but no very prominent.
+
+### Changed
+- Changed PHP custom types (classes) coloring and custom namespaces from $\color{#249D5F}{Clover \space Green \sim}$ (#249D5F) to $\color{#7CC39E}{Summer \space Green \sim}$ (#7CC39E). Thats easier to distinct build-in and custom definitions.
+- Changed PHP build-in variables from $\color{#B05279}{Raspberry\space Rose \sim}$ (#B05279) to $\color{#249D5F}{Clover \space Green \sim}$ (#249D5F). Rose color suite for keywords, not for build-in types.
+
+### Limitation
+
+- Limitation to change constant color in C language to $\color{#9e86c8}{Lavender \space Purple \sim}$ (#9e86c8) like constants in other language. \
+Official [C/C++ Extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools) have a semantic tokenizer, that overall improve syntax highlighting, but provide **equal scope** for both *function calls* and *constants* inside a function. In VS Code *Semantic* scope is fully override *Text Mate* scopes, and these **scopes can't be combined**. Disabling semantic scope for a language (like C) can solve the constant coloring problem, but other semantic losses doesn't worth it.
 
 ## [0.0.4] - 27.10.2024
 

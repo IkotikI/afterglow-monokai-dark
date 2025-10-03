@@ -39,7 +39,9 @@
 		},
 		{
 			"name": "Built-in constant",
-			"scope": "constant.language",
+			"scope": [
+				"constant.language",
+			],
 			"settings": {
 				"foreground": "#9e86c8"
 			}
@@ -48,7 +50,7 @@
 			"name": "User-defined constant",
 			"scope": [
 				"constant.character",
-				"constant.other"
+				"constant.other",
 			],
 			"settings": {
 				"foreground": "#9e86c8"
@@ -108,14 +110,14 @@
 				// "foreground": "#b4c973"
 			}
 		},
-		{
-			"name": "Function name",
-			"scope": "entity.name.function",
-			"settings": {
-				"fontStyle": "",
-				"foreground": "#b4c973"
-			}
-		},
+		// {
+		// 	"name": "Function name",
+		// 	"scope": "entity.name.function",
+		// 	"settings": {
+		// 		"fontStyle": "",
+		// 		"foreground": "#b4c973"
+		// 	}
+		// },
 		{
 			"name": "Function argument",
 			"scope": "variable.parameter",
@@ -449,7 +451,109 @@
 			"settings": {
 				"foreground": "#249D5F",
 			}
-		}
+		},
+		// C
+		{
+			"name": "Built-in constant",
+			"scope": [
+				// "entity.name.function.preprocessor.c"
+				// "constant.language.c"
+			],
+			"settings": {
+				"foreground": "#9e86c8"
+			}
+		},
+		// PHP
+		{
+			// Meta attributes for PHP 8+
+			"name": "PHP > Meta attribute",
+			"scope": [
+				"meta.attribute.php"
+			],
+			"settings": {
+				// "foreground": "#797979",
+				// "foreground": "#776E8D",
+				// "foreground": "#aaaaaa",
+				// "foreground": "#999999",
+				// "fontStyle": "italic"
+			}
+		},
+		{
+			// Attribute name
+			"name": "PHP > Meta namespace",
+			"scope": [
+				"meta.attribute.php support.other.namespace.php",
+			],
+			"settings": {
+				// "foreground": "#98C379"
+				// "foreground": "#6C99BB",
+				// "foreground": "#AAAAAA",
+				"foreground": "#797979",
+				// "foreground": "#D6D6D6EE",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			// Attribute name
+			"name": "PHP > Meta name",
+			"scope": [
+				"support.attribute.php",
+			],
+			"settings": {
+				// "foreground": "#98C379",
+				// "foreground": "#6C99BB",
+				"foreground": "#AAAAAA",
+				// "foreground": "#7cc39e",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			// Attribute parameters
+			"name": "PHP > Meta Parameters",
+			"scope": [
+				"entity.name.variable.parameter.php",
+			],
+			"settings": {
+				// "foreground": "#A1B9CB",
+				"foreground": "#AAAAAA",
+				// "foreground": "#D6D6D6EE",
+				// "fontStyle": "bold"
+				"fontStyle": "italic"
+			}
+		},
+		{
+			// Attribute parameters
+			"name": "PHP > Classes",
+			"scope": [
+				"support.class.php",
+			],
+			"settings": {
+				"foreground": "#7cc39e"
+				// "fontStyle": "bold"
+			}
+		},
+		{
+			// Attribute parameters
+			"name": "PHP > Build-in classes, types",
+			"scope": [
+				"support.class.builtin.php",
+				"keyword.other.type.php"
+			],
+			"settings": {
+				"foreground": "#249D5F"
+				// "fontStyle": "bold"
+			}
+		},
+		{
+			// Attribute parameters
+			"name": "PHP > Nullable type",
+			"scope": [
+				"keyword.operator.nullable-type.php"
+			],
+			"settings": {
+				"foreground": "#D6D6D6"
+			}
+		},
 	],
 	"colors": {
 		"statusBar.background": "#222",

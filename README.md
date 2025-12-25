@@ -10,6 +10,6 @@ Tested with:
 - HTML, CSS
 - JS (TS & Frameworks)
 - JSON, YAML
+- Clang
 
 I am open to fixes, if you would found bad syntax coverage.
-

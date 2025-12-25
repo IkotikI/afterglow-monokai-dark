@@ -12,7 +12,12 @@ Color naming gets from [ArtyClick Colors](https://colors.artyclick.com/color-nam
 
 ## Unreleased
 
-## [0.0.5] - 03.10.2025
+## [0.0.7] - 03.10.2025
+
+### Changed
+- Changed PHP **trait** keyword from $\color{#249D5F}{Clover \space Green \sim}$ (#249D5F) to $\color{#B05279}{Raspberry\space Rose \sim}$. Now it match other type definitions.
+
+## [0.0.6] - 03.10.2025
 
 ### Added
 - Added PHP 8 meta attributes support. For meta name and variables used $\color{#AAAAAA}{Grey \space Chateau \sim}$ (#AAAAAA) and *Italic* font style. Internal variable types keep it's type highlight. Keep it distinguishable, but no very prominent.
